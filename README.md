@@ -20,3 +20,5 @@ The script will remove everything up to the first period and average everything 
 ERR2105693.LarvalCarcass1.tsv  
 ERR2105694.LarvalCarcass2.tsv  
 ERR2105695.LarvalCarcass3.tsv  
+
+run the script as rscript jointsv.R and it will run on every .tsv file in the current directory.
