@@ -43,6 +43,6 @@ means<-data.frame(merged$ID, sapply(nms[2:length(nms)], function(x)  rowMeans(me
 
 head(means)
 
-write.table(means, "210412_flyatlas_Larval_uniq_FPKM.txt")
+write.table(means, "output.txt")
 
 
